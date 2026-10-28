@@ -3,5 +3,5 @@ import react from '@vitejs.plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/ https://github.com/NibroF/netflix-clone.git/', // Replace with your exact GitHub repo name
+  base: '/ https://github.com/NibroF/netflix-clone.git/', 
 })
