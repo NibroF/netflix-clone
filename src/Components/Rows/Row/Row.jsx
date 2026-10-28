@@ -3,7 +3,7 @@ import "./row.css";
 import axios from "../../../utils/axios";
 import YouTube from "react-youtube";
 
-const API_KEY = "YOUR_TMDB_API_KEY_HERE"; 
+const API_KEY = import.meta.env.VITE_API_KEY || "e4c87b4b083a896a4855d094c52c90b8";
 
 const Row = ({ title, fetchUrl, isLargeRow }) => {
   const [movies, setMovies] = useState([]);
